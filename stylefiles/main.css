@@ -1,0 +1,39 @@
+body{
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    width: 90%;
+    height: 80vh;
+    margin: 3rem auto;
+}
+.container h1{
+    text-align: center;
+    text-transform: capitalize;
+    color:  #504f4f;
+}
+#color-box{
+    width: 80%;
+    height: 80%;
+    border-radius: .3rem;
+    box-shadow: 2px 2px 8px teal;
+    margin: 3rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#chang-color-btn{
+    padding: 1rem 1.4rem;
+    outline: none;
+    border: none;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-transform: capitalize;
+    border-radius: .2rem;
+    color:  aliceblue;
+    cursor: pointer;
+    background-color: teal;
+}
